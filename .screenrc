@@ -1,19 +1,8 @@
-backtick 102 1 1 /home/tdoss/bin/timeup
+backtick 102 1 1 $HOME/.local/bin/timeup
 
 startup_message off
 hardstatus alwayslastline
-#hardstatus string '%{= KW}%Y-%m-%d %c %102`%-='
 hardstatus string '%102`%-='
 caption always "%{= KW}%{= KW}%-w%{= KG}%n %t%{= KW}%{= KW}%+w %-="
-#caption always "%{kB}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{kB}%?%+Lw%?"
-#hardstatus alwayslastline "%{BW}%16=%l %{BW}%50=%d/%m/%Y %{BW}%80=%c%="
-#%n is the number of the current window
-#%t is the name of the current window
-#%H is the name of the host
-#%D day 
-#%M month 
-#%d day of month 
-#%Y year
-
 bindkey ^[[1;3D prev
 bindkey ^[[1;3C next
