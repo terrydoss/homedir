@@ -1,0 +1,9 @@
+#!/bin/bash
+if pgrep -x "openfortivpn" > /dev/null
+    then
+        echo "Disconnecting";
+        sudo pkill openfortivpn;
+    else
+        sudo echo "Check your phone";
+        sudo openfortivpn --use-syslog & >/dev/null 2>&1;
+fi;
