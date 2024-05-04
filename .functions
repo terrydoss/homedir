@@ -1,0 +1,3 @@
+function treeless() {
+    tree -aC -I '.git|env|.snakemake|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
+}
