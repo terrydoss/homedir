@@ -1,5 +1,4 @@
-backtick 102 1 1 $HOME/.local/bin/timeup
-
+backtick 102 1 1 $HOME/.local/bin/screenhardstatus
 startup_message off
 hardstatus alwayslastline
 hardstatus string '%102`%-='
