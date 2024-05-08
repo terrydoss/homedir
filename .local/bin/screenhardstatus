@@ -1,6 +1,4 @@
 #!/bin/bash
-#
 uptime=$(uptime | awk -F'(,)+' '{print $1","$2","$3}')
 allip=$(hostname -I)
 echo $uptime, $allip;
-
